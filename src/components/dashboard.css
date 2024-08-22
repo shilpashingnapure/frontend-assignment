@@ -1,0 +1,165 @@
+.dashboard{
+    padding: .5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+/* dashboard header */
+.dashboard__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:.8rem .6rem;
+}
+
+.dashboard__header ul{
+    display: flex;
+    gap:15px;
+}
+
+.dashboard__header ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid var(--border-color);
+    padding:.1rem .5rem;
+    border-radius: 5px;
+    background-color: var(--background-secondary);
+    cursor: pointer;
+}
+
+.dashboard__header ul li:first-child{
+    border: none;
+    padding: 0;
+}
+
+/* days button */
+.btn{
+    border:1px solid var(--active-border-color);
+    color:#211b7d;
+    display: flex;
+    align-items: center;
+}
+
+.btn > div{
+    border-left: 1px solid var(--active-border-color);
+    padding: .1rem .3rem;
+    display: flex;
+    align-items: center;
+    gap:4px;
+    margin-left: .3rem;
+}
+
+
+
+/* dashboard categories */
+.dashboard__categories{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:.9rem;
+    background: #ecf1f4;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    gap:9px;
+}
+
+/* widgets of every category */
+.dashboard__widgets{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap:18px;
+}
+
+.widget-card{
+    height: 28vh;
+    border-radius: 20px;
+    background-color: var(--background-secondary);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:1rem 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+/* drawer custom css */
+.custom-drawer{
+    width: 550px;
+}
+
+.drawer-header{
+    background:var(--active-bg-color);
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem .8rem;
+}
+
+.drawer-content{
+    padding:.8rem;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.drawer-tabs ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.drawer-tabs li{
+    border:1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+.drawer-actions{
+    align-self: flex-end;
+    padding: .6rem;
+    display: flex;
+    gap:10px;
+}
+
+.drawer-actions button{
+    padding: .6rem 2.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.add-widget-btn{
+    padding: .5rem .8rem;
+    padding-right: 1rem;
+    background-color: #fff;
+    border:1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* custom tab */
+.custom-tab-list .MuiTab-root{
+    text-transform: none;
+}
+
+.custom-tab-list .MuiTab-root.Mui-selected{
+    color: var(--active-text-color);
+}
+
+.custom-tab-list .MuiTabs-indicator{
+    background-color: var(--active-bg-color);
+}
+
+

@@ -1,0 +1,68 @@
+{
+    "categories" : [
+        {
+            "category" : "CSPM",
+            "categoryName" : "CSPM Executive Dashboard" ,
+            "widgets" : [
+                {
+                    "name" : "Cloud Accounts",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                    "isAdded" : true
+                 },
+                {
+                    "name" : "Cloud Accounts Risk Asessment",
+                    "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+                    "isAdded" : true
+                }
+            ]
+        },
+        {
+            "category":"CWPP",
+            "categoryName" : "CWPP Dashboard" ,
+            "widgets" : [
+                {
+                    "name" : "Top 5 Namespace Specific Alerts",
+                    "text":"",
+                    "isAdded" : true
+                 },
+                {
+                    "name" : "Workload Alerts",
+                    "text" : "",
+                    "isAdded" : true
+                }
+            ]
+        },
+        {
+            "category":"Images",
+            "categoryName" : "Registry Scan Dashboard" ,
+            "widgets" : [
+                {
+                    "name" : "Image Risk Assessment",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+                    "isAdded" : true
+                 },
+                {
+                    "name" : "Image Security issues",
+                    "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+                    "isAdded" : true
+                }
+            ]
+        },
+        {
+            "category":"Ticket",
+            "categoryName" : "Ticket Dashboard" ,
+            "widgets" : [
+                {
+                    "name" : "Ticket Risk Assessment",
+                    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+                    "isAdded" : true
+                 },
+                {
+                    "name" : "Ticket Security issues",
+                    "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+                    "isAdded" : false
+                }
+            ]
+        }
+    ]
+}
